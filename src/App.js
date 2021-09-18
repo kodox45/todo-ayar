@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Todo from "./Todo";
 import TodoList from "./TodoList";
 
-const App = () => {
+const epp = () => {
   const [todos, setTodos] = useState([]);
 
   const addTodo = (todo) => {
@@ -27,4 +27,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default epp;
